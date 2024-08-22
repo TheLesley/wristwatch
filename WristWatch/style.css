@@ -1,0 +1,382 @@
+@keyframes expandForward {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+     }
+     
+
+     }
+
+.div1{
+    
+    background-image: url(./Fashion\ Shi\ Ying\ Steel\ Band\ Watch\ -\ Black\ -\ Mens\ singles.jpeg);
+     max-width: 1400px;   
+    /* width: 100%; */
+    height: 750px;
+    margin-top: -240px;
+    padding-top: 20px;
+    margin-left: -15px;
+
+
+   
+	       
+
+  
+  } 
+
+header{
+     height: 80px;
+    background-color: rgb(21, 20, 20);
+    margin-top: -10px;
+    margin-left: -10px;
+    
+}
+nav li {
+    margin-top: 20px;
+    width: 124px;
+    display: inline;
+    height: 18px;
+    float: left;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+   
+}
+
+nav {
+    max-width: 100%;
+    margin-left: 420px;
+    text-align: center;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav .ley{
+    margin-left: -380px;
+    color: whitesmoke;
+    font-size: large;
+    text-transform: uppercase; 
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.div1 p{
+    margin-top: 350px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-left: 80px;
+    font-size: 18px;
+    animation: expandForward 3s ease-in-out infinite;
+}
+.div1 .lesley4{
+    margin-top: 1%;
+    font-size: 30px;
+    margin-left: 72px;
+    animation: expandForward 3s ease-in-out infinite;
+}
+h6{
+    color: white;
+    text-transform: capitalize;
+    margin-left:72px;
+    font-size: small;
+    opacity: 0.6;
+}
+.div1 .lesley5{
+    color: whitesmoke;
+    font-size: small;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    padding: 6px;
+    margin-top: -10px;
+    
+    animation: expandForward 3s ease-in-out;
+    
+}
+.lesley5 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.lesley5:hover{
+    background-color: rgba(0, 0, 0, 0.459);
+    
+    cursor: pointer;
+}
+.lesley6{
+    color: black;
+    margin-top: 156px;
+    margin-left: -10px;
+    text-transform: uppercase;
+    font-size: 46px;
+    border: 3px solid white;
+    height: 700px;
+    width: 1089px;
+    padding-left: 170px;
+    padding-top: 90px;
+    background-color: whitesmoke;
+    animation: expandForward 3s ease-in-out;
+
+    
+}
+h5{
+    margin-top: -690px;
+    color: black;
+    font-size: large;
+    margin-left: 960px;
+}
+h4{
+    margin-top: -54px;
+    color: black;
+    font-size: large;
+    margin-left: 1000px;
+}
+.lesley7{
+    height: 400px;
+    width: 360px;
+    margin-left: 50px;
+    cursor: pointer;
+
+    
+}
+.lesley7:hover{
+    animation: expandForward 3s ease-in-out;
+}
+.lesley8{
+    height: 400px;
+    width: 360px;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.lesley8:hover{
+    animation: expandForward 3s ease-in-out;
+}
+.lesley9{
+    height: 400px;
+   width: 330px;
+    margin-left: 60px;
+    cursor: pointer;
+    
+}
+.lesley9:hover{
+    animation: expandForward 3s ease-in-out;
+}
+.lesley10 {
+    color: black;
+    margin-top: 6px;
+    margin-left: -10px;
+    text-transform: uppercase;
+    font-size: 46px;
+    border: 3px solid white;
+    height: 500px;
+    width: 1089px;
+    padding-left: 170px;
+    padding-top: 90px;
+    background-color: whitesmoke;
+    position: static;
+}
+
+.lesley11 {
+    height: 370px;
+    width: 500px;
+    margin-top: -500px;
+    margin-bottom: 80px;
+    margin-left: 90px;
+}
+.lesley12{
+    color:whitesmoke;
+    margin-top: -440px;
+    margin-left: 530px;
+}
+.lesley13{
+    height: 240px;
+    width: 350px;
+    margin-left: 600px;
+    margin-top: -32px;
+}
+.lesley14{
+    color: whitesmoke;
+    margin-top: -230px;
+    margin-left: 880px;
+    
+}
+.lesley15{
+    margin-left: 600px;
+    margin-top: 250px;
+    text-transform: capitalize;
+    font-size: 26px;
+    animation: easeInOut 2s ease-in-out forwards;
+}
+.lesley16{
+    margin-left: 610px;
+    text-transform: capitalize;
+    margin-top: 14px;
+    font-size: 13px;
+    animation: easeInOut 2s ease-in-out forwards 0.5s; /* Slight delay for staggered effect */
+    
+}
+@keyframes easeInOut {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+}
+/* Footer CSS */
+.footer {
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: -30px;
+    text-align: center;
+    
+    
+    left: 0;
+    bottom: 0;
+    width: 103%;
+    
+  }
+
+  .footer div {
+    margin: 5px 0;
+    font-size: 16px;
+
+  }
+
+  /* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    nav .ley {
+        font-size: 18px;
+    }
+
+    nav li {
+        margin: 0 5px;
+    }
+
+    nav li a {
+        font-size: 14px;
+    }
+
+    .lesley4 {
+        font-size: 24px;
+    }
+
+    .lesley6 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav .ley {
+        margin-bottom: 20px;
+    }
+
+    .lesley4 {
+        font-size: 20px;
+    }
+
+    .lesley6 {
+        font-size: 30px;
+        padding: 50px 20px;
+    }
+
+    .products img, .popular img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+   body{
+    width: 100%; 
+    background-repeat: no-repeat;
+    background-size: contain        ;
+    height: 1000vh;
+   }
+   header{
+    width: 60%;
+    margin-left: 70px;
+
+   }
+    nav .ley{
+        margin-left: 10px;
+        margin-top: 25px; 
+        
+    }
+    nav li{
+        display: grid;
+        margin-top: 3px;
+        /* padding-top: -15px; */
+        
+        
+    }
+    nav{
+        width: 100%;
+        margin-top: -30px;
+        margin-left: 10px;
+         text-align: center; 
+    }
+    .div1 .p1{
+        width: 100%;
+        font-size: 15px; 
+        margin-top:400px; 
+        margin-left: 50px;
+        
+
+    }
+   .div1 .lesley4{
+        max-width: 100%;
+        font-size: 20px;
+        margin-left: 50px;
+    
+    }
+    .div1 h6{
+        margin-left: 50px;
+        font-size: 10px;
+        
+    }
+    .div1{
+        width: 80%;
+        height:650px ;
+    }
+    .lesley6{
+        margin-top: 10px;
+        text-align: center;
+    }
+   
+}
+
+  
+
+
+
+
+    
